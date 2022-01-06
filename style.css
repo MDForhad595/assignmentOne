@@ -46,7 +46,6 @@ h5{
     height: 350px;
     width: 330px;
     padding: 10px 15px;
-    background-color: aquamarine;
     border-radius: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
@@ -55,4 +54,26 @@ h5{
     height: 100px;
     width: 100px;
     margin-top: 24px;
+}
+.deserun{
+    padding: 20px 50px;
+    line-height: 30px;
+}
+.deserun a{
+    text-decoration: none;
+    background-color: rgb(238, 59, 59);
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: cornsilk;
+}
+
+.deserunt img{
+    height: 350px;
+    width: 350px;
+}
+.consequat{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
 }
