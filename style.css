@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .mission{
     display: flex;
     padding: 80px;
@@ -57,14 +60,20 @@ h5{
 }
 .deserun{
     padding: 20px 50px;
-    line-height: 30px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.deserun h1{
+    font-size: 32px;
+    line-height: 35px;
 }
 .deserun a{
     text-decoration: none;
     background-color: rgb(238, 59, 59);
-    padding: 15px 50px;
+    padding: 10px 40px;
     border-radius: 10px;
     color: cornsilk;
+    font-weight: 700;
 }
 
 .deserunt img{
@@ -75,5 +84,44 @@ h5{
     display: flex;
     width: 80%;
     margin: auto;
-    
 }
+.navber{
+    display: flex;
+    padding: 100px;
+    height: 350px;
+    background-color:#ffffff;
+    margin: auto;
+}
+.web-hero{
+    width: 50%;
+}
+.web-hero img{
+    width: 100%;
+}
+.web-hero p{
+    color: #9da3a7;
+    margin-top: 35px;
+    line-height: 22px;
+}
+footer{
+    font-family: Lobster;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 45px;
+    line-height: 40px;
+}
+footer h1{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer p{
+    margin: 0;
+}
+
+
+
+
+
+
+
